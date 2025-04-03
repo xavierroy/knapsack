@@ -105,6 +105,10 @@
     --color-neutral-text-contrast: var(--light, #575279) var(--dark, #e0def4)!important;
     --color-neutral-placeholder: var(--light, #8e8c99) var(--dark, #6f6d78)!important;
   };
+
+  body{
+    font-size: var(--font-size-fluid-0);
+  }
   
   .responsive-two-column-grid{
     display: block;
@@ -118,3 +122,13 @@
       grid-template-columns: 1fr 1fr;
     }
   }
+
+  .page__subtitle{
+    font-weight: 100;
+    color: var(--color-primary-text-contrast);
+  }
+
+.article h1, .article h2, .article h3{
+  font-family: 'Arima', serif  ;
+  
+}
