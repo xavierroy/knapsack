@@ -30,6 +30,18 @@ export default defineConfig({
              }),
           },
         ],
+      },
+      {
+        label: "News",
+        icon: "newspaper",
+        groups: [
+          	{
+              label: "Updates", 
+              query: createNotesQuery({
+              pattern: "^/news/",
+             }),
+          },
+        ],
       }
     ],
   },
